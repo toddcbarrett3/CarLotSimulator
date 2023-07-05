@@ -60,6 +60,7 @@ namespace CarLotSimulator
             {
                 Console.WriteLine($"{item.Year} {item.Make} {item.Model}");
             }
+            Console.WriteLine($"The current number of cars in the car lot is {carLot.ListOfCars.Count}");
 
 
             //*************BONUS*************//
